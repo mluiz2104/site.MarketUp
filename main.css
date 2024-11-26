@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#f2f7fc ;
+    font-family: "Roboto", sans-serif;
+}
+
+
+h1,
+h2,h4 {
+    font-family: "Bungee", cursive;
+}
+
+/* cabeçalho */
+header {
+    background-color: #143d59;
+    padding: 16px 0;
+   
+}
+
+header h1 {
+    color: #f4b41a;
+    font-size: 40px;
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header li {
+    display: inline;
+    padding: 15px;
+    margin-left: 8px;
+}
+
+header li a {
+    text-decoration: none;
+    color: #f4b41a;
+    font-size: 22px;
+}
+
+header li a:hover{
+    text-decoration: underline;
+    color: #ecf0f1;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+
+.midia {
+    width: 100%;
+    height: 600px;
+    margin-top: 5px;
+}
+
+/* conteudo */
+.container2 {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+section .container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    margin-top: 65px;
+    width: 800px;
+    padding-top: 60px;
+}
+
+.about h2 {
+    font-size: 50px;
+    color: #f4b41a;
+    margin-bottom: 30px;
+}
+
+.about a {
+    background-color: #f4b41a;
+    color: #143d59;
+    padding: 20px;
+    border-radius: 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.about a:hover {
+    background-color: #143d59;
+    color: #ecf0f1;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+    color: #143d59;
+    padding: 7px;
+
+}
+
+.about2 img {
+    display: block;
+    height: 180px;
+    width: 300px;
+
+}
+
+.prime1 {
+    margin-top: 90px;
+    margin-bottom: 10px;
+    margin-left: -90px;
+}
+
+.prime2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.prime3 {
+    margin-top: 40px;
+    margin-left: -150px;
+}
+
+/* secão vantagens*/
+ #vantagem .container {
+    
+    margin-top: 30px;
+ }
+
+.container .vantagem {
+    display: flex ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#vantagem .container h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #081d2b;
+
+}
+
+.vantagem h3 {
+    font-size: 25px;
+    color: #143d59;
+    text-align: center;
+    
+
+}
+
+.vantagem img {
+    width: 100%;
+}
+
+.vantagem article {
+    width: 30%;
+}
+
+.vantagem article .img2 {
+    width: 390px;
+    height: 310px;
+}
+
+.message {
+    background-color: #f4b41a;
+    margin-top: 65px;
+    margin-bottom: 45px;
+    padding: 20px;
+}
+
+.message h4{
+    font-size: 40px;
+    text-align: center;
+    color: #153d59;
+   }
+
+/** **/
+
+   #contact .container {
+    display: block;
+   }
+
+   .container .contact {
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .contact li {
+    display: inline;
+    align-items: center;
+    padding: 15px;
+   }
+
+   .contact li img {
+    width: 30px;
+    }
+
+    .contact a:hover{
+        cursor: pointer;
+        width: 35px;
+    }
+
+
+   form input, form textarea, form button {
+    display: block;
+    width: 420px;
+    margin-bottom: 15px;
+    padding: 8px;
+   }
+
+   #contact .container h3 {
+    margin-bottom: 20px;
+    color: #0a3d5f;
+    font-weight: bold;
+   }
+
+   #contact .contact h3 { 
+    color: #0a3d5f;
+    font-weight: bold;
+   }
+
+   .contact p {
+   color: #085283;
+   }
+
+   form textarea {
+    height: 150px;
+    resize: none;
+   }
+
+   form button {
+    background-color: #143d59;
+    border: none;
+    color: #f4b41a;
+    cursor: pointer;
+   }
+
+   form button:hover {
+    background-color: #085283;
+   }
+
+   input:focus, textarea {
+    outline-color: #062438;
+   }
+   footer {
+    background-color: #153d59;
+    color: #ecf0f1;
+    padding: 16px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    color: #f4b41a;
+}
+   
+
+
+
+
+
+
+    /*
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.midia {
+  height:450px;
+}
+
+section .container {
+    display: flex;
+    margin: 10px 0;
+    margin: 15px  ;
+}
+
+.about h2,p {
+ color: #f18809 ;
+}
+
+.about {
+    margin-left: 16px ;
+}
+    */
